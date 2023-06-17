@@ -2,7 +2,7 @@
     "title": "Ready To Become An Office Superhero? 🚀",
     "description": {
         "text": "MyToolBelt saves every smart office worker time and effort when it comes to analysis with a unique set of tools you won't find anywhere else: ",
-        "imageURL": "src/assets/product.png",
+        "imageURL": "/product.png",
         "keyPoints": {
             "withTick": [
                 "Personalized and Targeted Campaigns",
@@ -19,17 +19,17 @@
         {
             "title": "Data Extraction from Excel File",
             "description": "The app allows users to upload an Excel file containing data such as recipient names, email addresses, and other relevant information. It uses a library or module to extract and parse the data from the Excel file, making it accessible for further processing.",
-            "imageURL": "src/assets/Feature1.jpg"
+            "imageURL": "/Feature1.jpg"
         },
         {
             "title": "Email Template Personalization ",
             "description": "The app provides a way for users to define an HTML email template with placeholders for personalized content. It uses a templating engine or library to dynamically populate the placeholders in the email template with the data extracted from the Excel file. The resulting personalized email content is generated for each recipient, making the emails unique and tailored to each individual.",
-            "imageURL": "src/assets/Feature2.jpg"
+            "imageURL": "/Feature2.jpg"
         },
         {
             "title": "SMTP Server Integration for Email Sending",
             "description": "The app includes functionality to establish a connection to an SMTP server for sending emails. It allows users to configure the SMTP server details, such as host, port, authentication credentials, etc., to establish a successful connection.The app uses an SMTP client library or module to send the personalized emails, providing the necessary email details (recipient, subject, HTML content) for each email. Error handling is implemented to handle potential failures during the email sending process, ensuring reliable delivery of emails.",
-            "imageURL": "src/assets/Feature3.jpg"
+            "imageURL": "/Feature3.jpg"
         }
     ],
     "demoVideoUrl": "https://www.youtube.com/embed/b0IZo2Aho9Y",

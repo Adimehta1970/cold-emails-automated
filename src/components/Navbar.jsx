@@ -1,7 +1,7 @@
 import React from 'react';
 import {AppBar, Toolbar, IconButton, Typography, Container} from '@mui/material';
 import useMediaQuery from '@mui/material/useMediaQuery';
-import Logo from '/src/assets/cold-emails-automated.ico';
+import Logo from '/cold-emails-automated.ico';
 
 
 export const Navbar = () => {
