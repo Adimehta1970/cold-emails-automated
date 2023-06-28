@@ -40,6 +40,7 @@ export const Demo = () => {
 						id="demo-video"
 						src={demoVideoUrl}
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen="true" 
 						style={{border:'none', position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}
 						aria-label="demo-video"
 					/>

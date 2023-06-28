@@ -13,18 +13,21 @@ export const Faqs = () => {
 
 	return (
 		<Container id="faqs">
-			<Grid container spacing={2}   sx={{mt: 5,mb:5,display: 'flex', justifyContent: 'center', width: '100%'}}>
-				<Grid item sx={{display: 'flex', justifyContent: 'left', width: '100%'}}>
-					<Typography variant="h4" fontWeight="bold" gutterBottom>🙋‍♀️ FAQs</Typography>
-				</Grid>	
-				<Grid item>
+			<Grid container spacing={2} sx={{ mt: 5, mb: 5, justifyContent: 'center' }}>
+				<Grid item xs={12} sx={{ mb: 5, display: 'flex', justifyContent: 'left' }}>
+					<Typography variant="h4" fontWeight="bold" gutterBottom>
+            🙋‍♀️ FAQs
+					</Typography>
+				</Grid>
+				<Grid item xs={12}>
 					{faqs.map((faq, index) => (
-						<Accordion 
+						<Accordion
 							key={index}
 							expanded={expanded === `panel-${index}`}
-							onChange={(event, isExpanded) => handleChange(isExpanded, `panel-${index}`)}>
+							onChange={(event, isExpanded) => handleChange(isExpanded, `panel-${index}`)}
+						>
 							<AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls={`faq-${index}-content`} id={`faq-${index}-header`}>
-								<Typography variant="h6">{faq.question}</Typography>
+								<Typography variant="h6">{index + 1}. {faq.question}</Typography>
 							</AccordionSummary>
 							<AccordionDetails>
 								<Typography variant="body1">{faq.answer}</Typography>

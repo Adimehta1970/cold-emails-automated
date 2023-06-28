@@ -1,7 +1,8 @@
 {
-    "title": "Ready To Become An Office Superhero? 🚀",
+    "logo": "/favicon.ico",
+    "title": "Supercharge Your Connections with Cold Emails💹",
     "description": {
-        "text": "MyToolBelt saves every smart office worker time and effort when it comes to analysis with a unique set of tools you won't find anywhere else: ",
+        "text": "Want to effortlessly send personalized emails that generate hot leads? Look no further! Introducing EMAILS AUTOMATED the groundbreaking tool that revolutionizes the way you connect with potential clients. 📧💼",
         "imageURL": "/product.png",
         "keyPoints": {
             "withTick": [
@@ -11,48 +12,52 @@
                 "Seamless Data Integration"
             ],
             "withoutTick": [
-                "This is your new superpower; why go to work without it?"
+                "This is your new superpower, why work without it?"
             ]
         }
     },
     "features": [
         {
             "title": "Data Extraction from Excel File",
-            "description": "The app allows users to upload an Excel file containing data such as recipient names, email addresses, and other relevant information. It uses a library or module to extract and parse the data from the Excel file, making it accessible for further processing.",
+            "description": "The app allows users to upload an Excel file containing data such as recipient names, email addresses, and other relevant information. It uses pandas (a popular python library) to extract and parse the data from the Excel file, making it accessible for further processing.",
             "imageURL": "/Feature1.jpg"
         },
         {
-            "title": "Email Template Personalization ",
-            "description": "The app provides a way for users to define an HTML email template with placeholders for personalized content. It uses a templating engine or library to dynamically populate the placeholders in the email template with the data extracted from the Excel file. The resulting personalized email content is generated for each recipient, making the emails unique and tailored to each individual.",
+            "title": "Email Template Personalization",
+            "description": "The app let the user define an HTML email template with placeholders for personalized content. It checks for particular formatting to dynamically populate the placeholders in the email template with the data extracted from the Excel file. The resulting personalized email content is generated for each recipient, making the emails unique and tailored to each individual.",
             "imageURL": "/Feature2.jpg"
         },
         {
             "title": "SMTP Server Integration for Email Sending",
-            "description": "The app includes functionality to establish a connection to an SMTP server for sending emails. It allows users to configure the SMTP server details, such as host, port, authentication credentials, etc., to establish a successful connection.The app uses an SMTP client library or module to send the personalized emails, providing the necessary email details (recipient, subject, HTML content) for each email. Error handling is implemented to handle potential failures during the email sending process, ensuring reliable delivery of emails.",
+            "description": "The app includes functionality to establish a connection to an SMTP server for sending emails. It allows users to configure the SMTP server details, such as host, port, authentication credentials, etc., to establish a successful connection. It uses an SMTP client library or module to send personalized emails, providing the necessary email details (recipient, subject, HTML content) for each email.",
             "imageURL": "/Feature3.jpg"
         }
     ],
-    "demoVideoUrl": "https://www.youtube.com/embed/b0IZo2Aho9Y",
+    "demoVideoUrl": "https://www.youtube.com/embed/70C57vkQ0Ro",
     "faqs": [
         {
-            "question": "FAQ 1",
-            "answer": "Answer 1 lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "question": "Who this tool is for?",
+            "answer": "This tool is designed for entrepreneurs, sales professionals, and business owners who want to enhance their outreach efforts and connect with potential clients."
         },
         {
-            "question": "FAQ 2",
-            "answer": "Answer 2 lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "question": "How will I connect my email service provider?",
+            "answer": "The connection process is simple and explained in the guide provided to you. If you face any issues, reach out to us at support[at]emails-automated[dot]com."
         },
         {
-            "question": "FAQ 3",
-            "answer": "Answer 3 lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "question": "Do I need to know HTML?",
+            "answer": "No, you do not need to know HTML. You can simply convert your body into HTML using any online tool."
         },
         {
-            "question": "FAQ 4",
-            "answer": "Answer 4 lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "question": "How can I improve my cold email response rates?",
+            "answer": "To improve response rates, focus on personalization, relevance, and a clear call-to-action. Research your prospects beforehand to understand their pain points and tailor your message accordingly."
         },
         {
-            "question": "FAQ 5",
-            "answer": "Answer 5 lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "question": "Can I track my open-rates?",
+            "answer": "No, at the moment you can not track open-rates. But we are working on it and will be available soon for wordpress website users."
+        },
+        {
+            "question": "Can I send automated follow-ups?",
+            "answer": "No, at the moment you can not send any automated follow-ups. Depending on the response we will add this feature in the future."
         }
     ]
 }

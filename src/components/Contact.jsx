@@ -10,7 +10,7 @@ export const Contact = () => {
 	return (
 		<Container id="contact-us">
 			<Grid container spacing={2} sx={{ mt: 5, mb: 5, display: 'flex', justifyContent: 'center' }}>
-				<Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
+				<Grid item xs={12} sx={{ mb: 5, display: 'flex', justifyContent: 'center' }}>
 					<Typography variant="h4" fontWeight="bold" gutterBottom>📫 Have a question? Ask us right away!</Typography>
 				</Grid>	
 				<Grid item xs={12} md={6} sx={{ display: 'flex', justifyContent: 'center' }}>

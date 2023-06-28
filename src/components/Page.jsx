@@ -10,13 +10,13 @@ export const Page = () => {
 	
 	return (
 		<Container >
-			<Paper>
+			<Paper elevation={5} >
 				<Stack
 					direction="column"
 					divider={<Divider orientation="horizontal" variant='middle' />}
 					useFlexGap
 				>
-					<Description id='Description'/>
+					<Description/>
 					<Features/>
 					<Demo/>
 					<Faqs/>
